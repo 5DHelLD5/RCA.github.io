@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+
+body {
+    font-family: Alata, serif;
+    background-color: #525252;
+}
+
+.help {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: gray;
+}
+
+.sidebar {
+    color: white;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.slide-text,
+.footer-text {
+    color: white;
+    margin: auto auto;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-outline-primary {
+    background-color: rgb(53, 52, 52);
+}
+
+.call-anim {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
